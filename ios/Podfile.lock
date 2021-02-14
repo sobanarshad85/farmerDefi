@@ -1,0 +1,259 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - BoringSSL (10.0.5):
+    - BoringSSL/Implementation (= 10.0.5)
+    - BoringSSL/Interface (= 10.0.5)
+  - BoringSSL/Implementation (10.0.5):
+    - BoringSSL/Interface (= 10.0.5)
+  - BoringSSL/Interface (10.0.5)
+  - Crashlytics (3.10.3):
+    - Fabric (~> 1.7.8)
+  - DoubleConversion (1.1.5)
+  - Fabric (1.7.8)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - gRPC (1.12.0):
+    - gRPC-RxLibrary (= 1.12.0)
+    - gRPC/Main (= 1.12.0)
+  - gRPC-Core (1.12.0):
+    - gRPC-Core/Implementation (= 1.12.0)
+    - gRPC-Core/Interface (= 1.12.0)
+  - gRPC-Core/Implementation (1.12.0):
+    - BoringSSL (~> 10.0)
+    - gRPC-Core/Interface (= 1.12.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.12.0)
+  - gRPC-ProtoRPC (1.12.0):
+    - gRPC (= 1.12.0)
+    - gRPC-RxLibrary (= 1.12.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.12.0)
+  - gRPC/Main (1.12.0):
+    - gRPC-Core (= 1.12.0)
+    - gRPC-RxLibrary (= 1.12.0)
+  - KSCrash/Core (1.15.18):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.18):
+    - KSCrash/Recording/Tools (= 1.15.18)
+  - KSCrash/Recording/Tools (1.15.18)
+  - KSCrash/Reporting/Filters/Base (1.15.18):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.18):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - "NSData+FastHex (1.0.1)"
+  - OneSignal (2.8.5)
+  - Protobuf (3.6.0)
+  - React (0.55.4):
+    - React/Core (= 0.55.4)
+  - react-native-camera (1.1.4):
+    - React
+    - react-native-camera/RCT (= 1.1.4)
+    - react-native-camera/RN (= 1.1.4)
+  - react-native-camera/RCT (1.1.4):
+    - React
+  - react-native-camera/RN (1.1.4):
+    - React
+  - react-native-onesignal (3.2.5):
+    - OneSignal (= 2.8.5)
+    - React
+  - React/ART (0.55.4):
+    - React/Core
+  - React/Core (0.55.4):
+    - yoga (= 0.55.4.React)
+  - React/CxxBridge (0.55.4):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.55.4):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.55.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.55.4)
+  - React/jschelpers (0.55.4):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.55.4)
+  - React/PrivateDatabase (0.55.4)
+  - React/RCTActionSheet (0.55.4):
+    - React/Core
+  - React/RCTAnimation (0.55.4):
+    - React/Core
+  - React/RCTBlob (0.55.4):
+    - React/Core
+  - React/RCTCameraRoll (0.55.4):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.55.4):
+    - React/Core
+  - React/RCTImage (0.55.4):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.55.4):
+    - React/Core
+  - React/RCTText (0.55.4):
+    - React/Core
+  - React/RCTVibration (0.55.4):
+    - React/Core
+  - React/RCTWebSocket (0.55.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativeFabric (0.5.1):
+    - Crashlytics
+    - Fabric
+    - React
+  - RNBackgroundFetch (2.4.3):
+    - React
+  - RNDeviceInfo (0.21.5):
+    - React
+  - RNShare (1.1.0):
+    - React
+  - RNTron (1.0.0):
+    - "NSData+FastHex"
+    - React
+    - RNTron/Messages (= 1.0.0)
+    - RNTron/Services (= 1.0.0)
+    - TrezorCrypto
+  - RNTron/Messages (1.0.0):
+    - "NSData+FastHex"
+    - Protobuf
+    - React
+    - TrezorCrypto
+  - RNTron/Services (1.0.0):
+    - gRPC-ProtoRPC (= 1.12.0)
+    - "NSData+FastHex"
+    - React
+    - RNTron/Messages
+    - TrezorCrypto
+  - Sentry (3.12.4):
+    - Sentry/Core (= 3.12.4)
+    - Sentry/KSCrash (= 3.12.4)
+  - Sentry/Core (3.12.4)
+  - Sentry/KSCrash (3.12.4):
+    - KSCrash/Core (~> 1.15.12)
+  - SentryReactNative (0.38.1):
+    - React
+    - Sentry (~> 3.12.4)
+    - Sentry/KSCrash (~> 3.12.4)
+  - TrezorCrypto (0.0.5)
+  - yoga (0.55.4.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-onesignal (from `../node_modules/react-native-onesignal`)
+  - React/ART (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTCameraRoll (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativeFabric (from `../node_modules/react-native-fabric`)
+  - RNBackgroundFetch (from `../node_modules/react-native-background-fetch`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNShare (from `../node_modules/react-native-share`)
+  - RNTron (from `../node_modules/react-native-tron/ios/`)
+  - SentryReactNative (from `../node_modules/react-native-sentry`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - BoringSSL
+    - Crashlytics
+    - Fabric
+    - gRPC
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - KSCrash
+    - nanopb
+    - "NSData+FastHex"
+    - OneSignal
+    - Protobuf
+    - Sentry
+    - TrezorCrypto
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  react-native-onesignal:
+    :path: "../node_modules/react-native-onesignal"
+  ReactNativeFabric:
+    :path: "../node_modules/react-native-fabric"
+  RNBackgroundFetch:
+    :path: "../node_modules/react-native-background-fetch"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
+  RNShare:
+    :path: "../node_modules/react-native-share"
+  RNTron:
+    :path: "../node_modules/react-native-tron/ios/"
+  SentryReactNative:
+    :path: "../node_modules/react-native-sentry"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  BoringSSL: cf3f1793eb6e3c445c4d150456341f149c268a35
+  Crashlytics: 2aea305161a2122492698c75af27f2b98aa49a25
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Fabric: fba4684a95df789565b0b27fc5b6e68f1755af32
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  gRPC: 9362451032695e2dfb7bafcd3740e3a27939e4ff
+  gRPC-Core: 9696b220565b283e021cf2722d473a4a74b7622a
+  gRPC-ProtoRPC: a1bd56fb1991a8dae4581250d7259eddabb66779
+  gRPC-RxLibrary: 1ed5314e8b38cd6e55c9bfa048387136ae925ce9
+  KSCrash: 5394936f41e5c1ef7b79cf79b30d53299b0c160e
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  "NSData+FastHex": a22ad031ee10a4297d0bf4d20cf03406a4476169
+  OneSignal: 42dae269c7eca517aee34963820e1eb922390031
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  React: aa2040dbb6f317b95314968021bd2888816e03d5
+  react-native-camera: ab22041dcf0403d88f2ae4b9ea3ed2644e680423
+  react-native-onesignal: 4f425b36d3edf595c93c1a8d3618a93b71a85a51
+  ReactNativeFabric: 3912bf9c714d7cc98110eadf06ca6dedef219322
+  RNBackgroundFetch: 8c4f77f83c398c659bce82af2f0a885079417b9e
+  RNDeviceInfo: 568c5641057313b4912d08a7742ff0b2f753ed5c
+  RNShare: 40c92dc26432c51019b94dee6e5eb5097d75c794
+  RNTron: e5cc70419d4fc1021255c7bffb764bbf3e8cc560
+  Sentry: 7d3ea7176e5184e9c35c12a5825905345807e8c1
+  SentryReactNative: 787a08161d641dde91dd36d4c8e76f9b0ba4fc84
+  TrezorCrypto: ecef681446bf02af6248d3b5e394026d7e766e56
+  yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
+
+PODFILE CHECKSUM: 9169375697cfc092bed62f7beb1d7f48278146c7
+
+COCOAPODS: 1.5.3
